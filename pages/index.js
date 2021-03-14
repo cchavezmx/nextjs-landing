@@ -10,14 +10,16 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Grupo Intecsa</title>
-        <meta name="description" content="Empresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"></meta>
-        <meta property="og:locale" content="es_ES" />
-        <meta property="og:title" content="Grupo Intecsa | Venta ABB, Construcción, Energía, Instalaciónes Eléctricas, Canalización Eléctrica"/>
-        <link rel="icon" href="/favicon.ico" />
         <script 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD)}}
-        />
+        ></script>
+        <meta name="description" content="Empresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"></meta>
+        <meta property="og:locale" content="es_ES" />
+        <meta property="og:title" content="Grupo Intecsa | Venta ABB, Construcción, Energía, Instalaciónes Eléctricas, Canalización Eléctrica"/>
+        <meta property="og:description" content="Grupo Intecsa | Venta ABB, Construcción, Energía, Instalaciónes Eléctricas, Canalización EléctricEmpresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"/>
+
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <nav className={styles.navbar}>
