@@ -1,64 +1,134 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { jsonLD } from './jsonLD'
+import { faInfo, faShoppingBag, faPhone, faCameraRetro } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Grupo Intecsa</title>
+        <meta name="description" content="Empresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"></meta>
+        <meta property="og:locale" content="es_ES" />
+        <meta property="og:title" content="Grupo Intecsa | Venta ABB, Construcción, Energía, Instalaciónes Eléctricas, Canalización Eléctrica"/>
         <link rel="icon" href="/favicon.ico" />
+        <script 
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD)}}
+        />
       </Head>
 
+      <nav className={styles.navbar}>
+          
+        <a href="https://www.facebook.com/Grupo-Intecsa-Mx-Oficial-213945636173987/"
+        target="_blank"
+        rel="noopener nofollow"
+        aria-label="Sígenos en facebook"
+        >
+        <img src="/social/facebook.svg" className={styles.imgnav}  />
+        </a>
+
+        <a href="https://www.instagram.com/itamxoficial/?hl=es-la"
+        target="_blank"
+        rel="noopener nofollow"
+        aria-label="Sígenos en instagram"
+        >
+        <img src="/social/insta.svg" className={styles.imgnav}  />
+        </a>
+
+        <a href="https://www.linkedin.com/company/grupo-intecsa/about/"
+        target="_blank"
+        rel="noopener nofollow"
+        aria-label="Nuestra empresa en linkedin"
+        >
+        <img src="/social/linkedin.svg" className={styles.imgnav} />
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCyjWF1Qa_ehQVYOHX_RF84w/null"
+        target="_blank"
+        rel="noopener nofollow"
+        aria-label="Cómo llegar"
+        >
+        <img src="/social/youtube.svg" className={styles.imgnav} />
+        </a>
+        
+        <a href="https://www.google.com/maps?ll=19.38668,-99.223983&z=16&t=m&hl=es&gl=MX&mapclient=embed&q=Ra%C3%BAl+Z%C3%A1rate+Machuca+11+Cuevitas+%C3%81lvaro+Obreg%C3%B3n+01220+Ciudad+de+M%C3%A9xico,+CDMX"
+        target="_blank"
+        rel="noopener nofollow"
+        aria-label="Cómo llegar"
+        >
+        <img src="/social/maps.svg" className={styles.imgnav} />
+        </a>
+        
+        
+      
+      </nav>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <h1 className={styles.title}>
+          Grupo Intecsa
+      </h1>
 
+      <p className={styles.code}>TRANSFORMAMOS LA ENERGÍA EN LUZ...Y LA LUZ EN ENERGÍA TAMBIÉN.</p>
+      
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            
+          <a href="https://www.instagram.com/itamxoficial/?hl=es-la" className={styles.card}>
+            <div className={styles.cardHeader}>
+            <FontAwesomeIcon icon={faCameraRetro} className={styles.fonts}/>
+            </div>
+            
+            <p>
+              <h3 className={styles.center}>Nosotros</h3>
+              Con imagenes; te mostramos los retos que hemos tenido a lo largo de más de 25 años de experiencia.
+            </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://itamx.com/#/dashboard" className={styles.card}>
+          <div className={styles.cardHeader}>
+            <FontAwesomeIcon icon={faShoppingBag} className={styles.fonts}/>
+            </div>
+            <p>
+            <h3 className={styles.center}>Venta</h3>
+            Productos ABB Registros eléctricos Canalizaciones y soportería Máterial eléctrico.
+            </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://forms.monday.com/forms/embed/608067760034e1ac1f86e10392668e8b?r=use1"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <div className={styles.cardHeader}>
+            <FontAwesomeIcon icon={faPhone} className={styles.fonts}/>
+            </div>
+            <p>
+            <h3 className={styles.center}>Contacto </h3>
+              Contamos con la capacidad técnica y humana para desarrollar cualquier 
+              trabajo.
+            </p>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <div className={styles.cardHeader}>
+            <FontAwesomeIcon icon={faInfo} className={styles.fonts}/>
+            </div>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            <h3 className={styles.center}>Empresas </h3>
+              Instalaciónes eléctricas en industrias, comercial y edificios.
+              <br />
+              Entra y conoce más de nosotros.
             </p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+      <img className={styles.logo} src="/web-logo.webp"  alt="logo empresa" loading="lazy" />
       </footer>
     </div>
   )
