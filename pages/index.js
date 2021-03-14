@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { jsonLD } from './jsonLD'
+import { jsonLD } from '../public/jsonLD'
 import { faInfo, faShoppingBag, faPhone, faCameraRetro } from '@fortawesome/free-solid-svg-icons'
 
 
