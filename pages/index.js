@@ -8,6 +8,7 @@ import { faInfo, faShoppingBag, faPhone, faCameraRetro } from '@fortawesome/free
 export default function Home() {
   return (
     <div className={styles.container}>
+    
       <Head>
         <title>Grupo Intecsa</title>
         <script 
@@ -29,7 +30,7 @@ export default function Home() {
         rel="noopener nofollow"
         aria-label="Sígenos en facebook"
         >
-        <img src="/social/facebook.svg" className={styles.imgnav}  />
+        <img src="/social/facebook.svg" className={styles.imgnav} alt="Síguenos en Facebook"  />
         </a>
 
         <a href="https://www.instagram.com/itamxoficial/?hl=es-la"
@@ -37,7 +38,7 @@ export default function Home() {
         rel="noopener nofollow"
         aria-label="Sígenos en instagram"
         >
-        <img src="/social/insta.svg" className={styles.imgnav}  />
+        <img src="/social/insta.svg" className={styles.imgnav} alt="Síguenos en Instragram"  />
         </a>
 
         <a href="https://www.linkedin.com/company/grupo-intecsa/about/"
@@ -45,7 +46,7 @@ export default function Home() {
         rel="noopener nofollow"
         aria-label="Nuestra empresa en linkedin"
         >
-        <img src="/social/linkedin.svg" className={styles.imgnav} />
+        <img src="/social/linkedin.svg" className={styles.imgnav} alt="Síguenos en Linkedin"  />
         </a>
 
         <a href="https://www.youtube.com/channel/UCyjWF1Qa_ehQVYOHX_RF84w/null"
@@ -53,7 +54,7 @@ export default function Home() {
         rel="noopener nofollow"
         aria-label="Cómo llegar"
         >
-        <img src="/social/youtube.svg" className={styles.imgnav} />
+        <img src="/social/youtube.svg" className={styles.imgnav} alt="Síguenos en Youtube"  />
         </a>
         
         <a href="https://www.google.com/maps?ll=19.38668,-99.223983&z=16&t=m&hl=es&gl=MX&mapclient=embed&q=Ra%C3%BAl+Z%C3%A1rate+Machuca+11+Cuevitas+%C3%81lvaro+Obreg%C3%B3n+01220+Ciudad+de+M%C3%A9xico,+CDMX"
@@ -61,7 +62,7 @@ export default function Home() {
         rel="noopener nofollow"
         aria-label="Cómo llegar"
         >
-        <img src="/social/maps.svg" className={styles.imgnav} />
+        <img src="/social/maps.svg" className={styles.imgnav} alt="Encuentranos en MAPS"  />
         </a>
         
         
@@ -84,10 +85,13 @@ export default function Home() {
             <div className={styles.cardHeader}>
             <FontAwesomeIcon icon={faInfo} className={styles.fonts}/>
             </div>
-            <p>
-            <h3 className={styles.center}>Empresas </h3>
-              Empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricas en industrias, comercios y edificios.
-            </p>
+            
+            <div>
+              <h3 className={styles.center}>Empresas </h3>
+              <p>
+                Empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricas en industrias, comercios y edificios.
+              </p>
+            </div>
           </a>
             
           <a href="https://www.instagram.com/itamxoficial/?hl=es-la" className={styles.card}>
@@ -95,20 +99,25 @@ export default function Home() {
             <FontAwesomeIcon icon={faCameraRetro} className={styles.fonts}/>
             </div>
             
-            <p>
+            <div>
               <h3 className={styles.center}>Nosotros</h3>
-              Con imagenes; te mostramos los retos que hemos tenido a lo largo de más de 25 años de experiencia.
-            </p>
+              <p>
+                Con imagenes; te mostramos los retos que hemos tenido a lo largo de más de 25 años de experiencia.
+              </p>
+            </div>
           </a>
 
           <a href="https://itamx.com/#/dashboard" className={styles.card}>
           <div className={styles.cardHeader}>
             <FontAwesomeIcon icon={faShoppingBag} className={styles.fonts}/>
             </div>
-            <p>
+            
+            <div>
             <h3 className={styles.center}>Venta</h3>
-            Productos ABB, registros eléctricos, Canalizaciones y soportería, máterial eléctrico, Onka.
-            </p>
+              <p>
+              Productos ABB, registros eléctricos, Canalizaciones y soportería, máterial eléctrico, Onka.
+              </p>
+            </div>
           </a>
 
           <a
@@ -118,19 +127,23 @@ export default function Home() {
             <div className={styles.cardHeader}>
             <FontAwesomeIcon icon={faPhone} className={styles.fonts}/>
             </div>
-            <p>
-            <h3 className={styles.center}>Contacto </h3>
-              Contamos con la capacidad técnica y humana para desarrollar cualquier 
-              trabajo.
-            </p>
+
+            <div>
+              <h3 className={styles.center}>Contacto </h3>
+              <p>
+                Contamos con la capacidad técnica y humana para desarrollar cualquier 
+                trabajo.
+              </p>
+            </div>
           </a>
 
         </div>
       </main>
-
+    
       <footer className={styles.footer}>
       <img className={styles.logo} src="/web-logo.webp"  alt="logo empresa" loading="lazy" />
       </footer>
     </div>
+    
   )
 }
