@@ -109,8 +109,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: #ffffff;
   border: 1px dotted #34465c;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
 }
 
 .cardHeader{
