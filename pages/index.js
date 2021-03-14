@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="description" content="Empresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"></meta>
         <meta property="og:locale" content="es_ES" />
         <meta property="og:title" content="Grupo Intecsa | Venta ABB, Construcción, Energía, Instalaciónes Eléctricas, Canalización Eléctrica"/>
-        <meta property="og:description" content="Grupo Intecsa | Venta ABB, Construcción, Energía, Instalaciónes Eléctricas, Canalización EléctricEmpresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"/>
+        <meta property="og:description" content="Somos empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricasen en industrias, comercios y edificios."/>
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -76,6 +76,19 @@ export default function Home() {
       <p className={styles.code}>TRANSFORMAMOS LA ENERGÍA EN LUZ...Y LA LUZ EN ENERGÍA TAMBIÉN.</p>
       
         <div className={styles.grid}>
+
+        <a
+            href="/about"
+            className={styles.card}
+          >
+            <div className={styles.cardHeader}>
+            <FontAwesomeIcon icon={faInfo} className={styles.fonts}/>
+            </div>
+            <p>
+            <h3 className={styles.center}>Empresas </h3>
+              Empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricas en industrias, comercios y edificios.
+            </p>
+          </a>
             
           <a href="https://www.instagram.com/itamxoficial/?hl=es-la" className={styles.card}>
             <div className={styles.cardHeader}>
@@ -94,7 +107,7 @@ export default function Home() {
             </div>
             <p>
             <h3 className={styles.center}>Venta</h3>
-            Productos ABB Registros eléctricos Canalizaciones y soportería Máterial eléctrico.
+            Productos ABB, registros eléctricos, Canalizaciones y soportería, máterial eléctrico, Onka.
             </p>
           </a>
 
@@ -112,20 +125,6 @@ export default function Home() {
             </p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <div className={styles.cardHeader}>
-            <FontAwesomeIcon icon={faInfo} className={styles.fonts}/>
-            </div>
-            <p>
-            <h3 className={styles.center}>Empresas </h3>
-              Instalaciónes eléctricas en industrias, comercial y edificios.
-              <br />
-              Entra y conoce más de nosotros.
-            </p>
-          </a>
         </div>
       </main>
 
