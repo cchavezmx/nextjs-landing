@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { jsonLD } from '../public/jsonLD'
-import News from './_news'
+import News from '../components/_news'
 
 
 export default function Home() {
