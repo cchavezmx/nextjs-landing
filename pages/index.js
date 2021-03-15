@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { jsonLD } from '../public/jsonLD'
-import { faInfo, faShoppingBag, faPhone, faCameraRetro } from '@fortawesome/free-solid-svg-icons'
+import News from './_news'
 
 
 export default function Home() {
@@ -16,6 +15,7 @@ export default function Home() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD)}}
         ></script>
         <meta name="description" content="Empresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"></meta>
+        <meta name="description" content="Integradores de autorizados ABB"></meta>
         <meta property="og:locale" content="es_ES" />
         <meta property="og:title" content="Grupo Intecsa | Venta ABB, Construcción, Energía, Instalaciónes Eléctricas, Canalización Eléctrica"/>
         <meta property="og:description" content="Somos empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricasen en industrias, comercios y edificios."/>
@@ -83,7 +83,8 @@ export default function Home() {
             className={styles.card}
           >
             <div className={styles.cardHeader}>
-            <FontAwesomeIcon icon={faInfo} className={styles.fonts}/>
+            {/* <FontAwesomeIcon icon={faInfo} className={styles.fonts}/> */}
+            <img src="/info.svg" alt="conoce nuestras empresas"/>
             </div>
             
             <div>
@@ -96,7 +97,8 @@ export default function Home() {
             
           <a href="https://www.instagram.com/itamxoficial/?hl=es-la" className={styles.card}>
             <div className={styles.cardHeader}>
-            <FontAwesomeIcon icon={faCameraRetro} className={styles.fonts}/>
+            {/* <FontAwesomeIcon icon={faCameraRetro} className={styles.fonts}/> */}
+            <img src="/like.svg" alt="conoce nuestras empresas"/>
             </div>
             
             <div>
@@ -109,7 +111,8 @@ export default function Home() {
 
           <a href="https://itamx.com/#/dashboard" className={styles.card}>
           <div className={styles.cardHeader}>
-            <FontAwesomeIcon icon={faShoppingBag} className={styles.fonts}/>
+            {/* <FontAwesomeIcon icon={faShoppingBag} className={styles.fonts}/> */}
+            <img src="/venta.svg" alt="sitio de venta de material eléctrico"/>
             </div>
             
             <div>
@@ -125,7 +128,8 @@ export default function Home() {
             className={styles.card}
           >
             <div className={styles.cardHeader}>
-            <FontAwesomeIcon icon={faPhone} className={styles.fonts}/>
+            {/* <FontAwesomeIcon icon={faPhone} className={styles.fonts}/> */}
+            <img src="/contacto.svg" alt="imagen de contacto"/>
             </div>
 
             <div>
@@ -139,6 +143,9 @@ export default function Home() {
 
         </div>
       </main>
+      <section>
+        <News styles={styles} />
+      </section>
     
       <footer className={styles.footer}>
       <img className={styles.logo} src="/web-logo.webp"  alt="logo empresa" loading="lazy" />

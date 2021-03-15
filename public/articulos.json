@@ -1,0 +1,29 @@
+{
+  "NOTICIAS": [
+    {
+    "title": "Fabricación de una registro eléctrico galvanizador caja POS",
+    "img": "/tecnica.svg",
+    "fecha": "15 de Marzo 2020"
+    },
+    {
+    "title": "Como hacer una transferencia eléctrica",
+    "img": "/tecnica.svg",
+    "fecha": "15 de Marzo 2020"
+    },
+    {
+    "title": "Proceso de corte laser",
+    "img": "/tecnica.svg",
+    "fecha": "15 de Marzo 2020"
+    },
+    {
+    "title": "Ensamblado de tablero ABB",
+    "img": "/tecnica.svg",
+    "fecha": "15 de Marzo 2020"
+    },
+    {
+    "title": "Canalización eléctrica rápida y facíl",
+    "img": "/tecnica.svg",
+    "fecha": "15 de Marzo 2020"
+    }
+  ]
+}

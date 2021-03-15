@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -7,6 +8,7 @@
   align-items: center;
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   color: #1F1F1F;
+  overflow-y: hidden;
 }
 
 .main {
@@ -20,12 +22,14 @@
 }
 
 .footer {
+  padding: 64px;
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .footer img {
@@ -81,7 +85,7 @@
 .grid {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1em;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
@@ -181,3 +185,54 @@
   box-shadow: rgb(0, 81, 255) 0px 30px 90px;
 }
 
+
+/* para las noticias */
+.newsSection{
+  padding: 64px;
+}
+
+.cardNoticias{
+  background-color: rgba(240, 255, 255, 0.39);
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 1rem;
+
+}
+
+.cardNoticias:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+@media (max-width: 400px) {
+  .cardNoticias {
+    width: 300px;
+    flex-direction: column;
+  }
+}
+
+.cardNoticias > img{
+  align-self: center;
+  height: 50px;
+  width: 50px;
+}
+
+.titleNota{
+  top: 30px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.cardNoticias > div{
+  margin-left: 20px;
+}
+
+.paginador{
+  text-align: center;
+  font-size: medium;
+  font-weight: 700;
+  color: #043c7c;
+}
