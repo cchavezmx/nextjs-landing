@@ -87,7 +87,7 @@ export default function Home() {
             </div>
             
             <div>
-              <h3 className={styles.center}>Empresas </h3>
+              <h3 className={styles.center}>Empresa </h3>
               <p>
                 Empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricas en industrias, comercios y edificios.
               </p>
@@ -100,9 +100,9 @@ export default function Home() {
             </div>
             
             <div>
-              <h3 className={styles.center}>Nosotros</h3>
+              <h3 className={styles.center}>Galería</h3>
               <p>
-                Con imagenes; te mostramos los retos que hemos tenido a lo largo de más de 25 años de experiencia.
+                Con imagenes y videos; te mostramos los retos que hemos tenido a lo largo de más de 25 años de experiencia.
               </p>
             </div>
           </a>
@@ -115,7 +115,7 @@ export default function Home() {
             <div>
             <h3 className={styles.center}>Venta</h3>
               <p>
-              Productos ABB, registros eléctricos, Canalizaciones y soportería, máterial eléctrico, Onka.
+              Sitio exclusivo donde puedes adquirir: productos ABB, registros eléctricos, Canalizaciones y soportería, matérial eléctrico Onka.
               </p>
             </div>
           </a>
@@ -131,8 +131,8 @@ export default function Home() {
             <div>
               <h3 className={styles.center}>Contacto </h3>
               <p>
-                Contamos con la capacidad técnica y humana para desarrollar cualquier 
-                trabajo.
+                ¿Quieres una cotización?, contamos con la capacidad técnica y humana para desarrollar cualquier tipo de
+                trabajo eléctrico.
               </p>
             </div>
           </a>

@@ -112,6 +112,7 @@
   color: #ffffff;
   border: 1px dotted #34465c;
   background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .cardHeader{
@@ -128,7 +129,7 @@
 }
 
 .fonts{
-  height: 3rem;
+  height: 3rem !important;
   color: #043c7c;
 }
 
@@ -146,7 +147,6 @@
 
 .logo {
   height: 8em;
-  
   z-index: 1;
 }
 
@@ -175,5 +175,9 @@
 .imgnav{
   height: 2rem;
   margin-right: 10px;
+}
+
+.imgnav:hover{
+  box-shadow: rgb(0, 81, 255) 0px 30px 90px;
 }
 
