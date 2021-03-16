@@ -2,15 +2,35 @@ export const jsonLD =
 [
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "Website",
+    "name": "Grupo Intecsa México - Ingeniería Eléctrica",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
     "url": "https://grupointecsa.com",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/itacatalgo.appspot.com/o/web-logo.webp?alt=media&token=0bbc13ee-767f-4396-976a-498c1c1bac87"
+    "logo": "https://firebasestorage.googleapis.com/v0/b/itacatalgo.appspot.com/o/web-logo.webp?alt=media&token=0bbc13ee-767f-4396-976a-498c1c1bac87",
+    "contactPoint": [
+      { "@type": "contactPoint",
+        "telephone": "+52 55 55 70 11 97",
+        "contactType": "customer service",
+        "areaServerd": "MX",
+        "aviableLanguage": "Spanish"  
+
+      }
+    ],
+    "addres": {
+        "@type": "PostalAdres",
+        "addressLocality": "Alvaro Obregon",
+        "addressRegion": "Ciudad de México",
+        "addresCountry": "Mexico"
+    }
   },
   {      
   
   "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "Caja POS",
+      "name": "Registro eléctrico Caja POS",
       "image": [
         "https://firebasestorage.googleapis.com/v0/b/itacatalgo.appspot.com/o/02AU143607I0039_01.webp?alt=media&token=f06fa8ad-d8c5-4bf3-9d09-098692c23a57"
         ],
