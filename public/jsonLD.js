@@ -34,7 +34,7 @@ export const jsonLD =
       "image": [
         "https://firebasestorage.googleapis.com/v0/b/itacatalgo.appspot.com/o/02AU143607I0039_01.webp?alt=media&token=f06fa8ad-d8c5-4bf3-9d09-098692c23a57"
         ],
-      "description": "Caja POS de 5 unidades de lamina Galvalizada.",
+      "description": "Caja POS de 5 unidades de lamina Galvanizada",
       "sku": "02AG143607I0051",
       "mpn": "02AG143607I0051",
       "brand": {
