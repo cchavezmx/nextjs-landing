@@ -106,7 +106,7 @@ export default function Home() {
           >
             <div className={styles.cardHeader}>
             {/* <FontAwesomeIcon icon={faInfo} className={styles.fonts}/> */}
-            <img src="/info.svg" alt="conoce nuestras empresas"/>
+            <img src="/info.svg" alt="conoce nuestras empresas" className={styles.imgencard}/>
             </div>
             
             <div>
@@ -120,7 +120,7 @@ export default function Home() {
           <a href="https://www.instagram.com/itamxoficial/?hl=es-la" className={styles.card}>
             <div className={styles.cardHeader}>
             {/* <FontAwesomeIcon icon={faCameraRetro} className={styles.fonts}/> */}
-            <img src="/like.svg" alt="conoce nuestras empresas"/>
+            <img src="/like.svg" alt="conoce nuestras empresas" className={styles.imgencard}/>
             </div>
             
             <div>
@@ -151,7 +151,7 @@ export default function Home() {
           >
             <div className={styles.cardHeader}>
             {/* <FontAwesomeIcon icon={faPhone} className={styles.fonts}/> */}
-            <img src="/contacto.svg" alt="imagen de contacto"/>
+            <img src="/contacto.svg" alt="imagen de contacto" className={styles.imgencard}/>
             </div>
 
             <div>
