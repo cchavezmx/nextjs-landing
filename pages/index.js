@@ -1,13 +1,21 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+
 import { jsonLD } from '../public/jsonLD'
+
 import News from '../components/_news'
+import Footer from '../components/_Footer'
+
 
 
 export default function Home() {
+
+  const phone = "5215546371510"
+  const whatsappMessage = `https://api.whatsapp.com/send/?phone=${phone}&text=Me gustaria tener información`
+
   return (
-    <div className={styles.container}>
-    
+    <div lang="es_MX" className={styles.container}>
+      
       <Head>
         <title>Grupo Intecsa</title>
         <script 
@@ -16,7 +24,7 @@ export default function Home() {
         ></script>
         <meta name="description" content="Empresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"></meta>
         <meta name="description" content="Integradores de autorizados ABB"></meta>
-        <meta property="og:locale" content="es_ES" />
+        <meta property="og:locale" content="es_MX" />
         <meta property="og:title" content="Grupo Intecsa | Venta ABB, Construcción, Energía, Instalaciónes Eléctricas, Canalización Eléctrica"/>
         <meta property="og:description" content="Somos empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricasen en industrias, comercios y edificios."/>
 
@@ -24,21 +32,35 @@ export default function Home() {
       </Head>
 
       <nav className={styles.navbar}>
-          
+      <div>
+        {/* <h1 className={styles.logo_title}>Grupo Intecsa</h1> */}
+        <img src="/web-logo.webp" className={styles.logo_title} alt="Síguenos en Facebook"/>
+      </div>
+      <div className={styles.row}>
+
+        <a href={whatsappMessage}
+        target="_blank"
+        rel="noopener nofollow"
+        aria-label="Mandanos un whatsapp"
+        >
+        <img src="/social/whatsapp.svg" className={styles.imgnav} alt="Síguenos en Facebook"/>
+        </a>
+
         <a href="https://www.facebook.com/Grupo-Intecsa-Mx-Oficial-213945636173987/"
         target="_blank"
         rel="noopener nofollow"
         aria-label="Sígenos en facebook"
         >
-        <img src="/social/facebook.svg" className={styles.imgnav} alt="Síguenos en Facebook"  />
+        <img src="/social/facebook.svg" className={styles.imgnav} alt="Síguenos en Facebook"/>
         </a>
+
 
         <a href="https://www.instagram.com/itamxoficial/?hl=es-la"
         target="_blank"
         rel="noopener nofollow"
         aria-label="Sígenos en instagram"
         >
-        <img src="/social/insta.svg" className={styles.imgnav} alt="Síguenos en Instragram"  />
+        <img src="/social/insta.svg" className={styles.hidden} alt="Síguenos en Instragram"  />
         </a>
 
         <a href="https://www.linkedin.com/company/grupo-intecsa/about/"
@@ -46,7 +68,7 @@ export default function Home() {
         rel="noopener nofollow"
         aria-label="Nuestra empresa en linkedin"
         >
-        <img src="/social/linkedin.svg" className={styles.imgnav} alt="Síguenos en Linkedin"  />
+        <img src="/social/linkedin.svg" className={styles.hidden} alt="Síguenos en Linkedin"  />
         </a>
 
         <a href="https://www.youtube.com/channel/UCyjWF1Qa_ehQVYOHX_RF84w/null"
@@ -54,7 +76,7 @@ export default function Home() {
         rel="noopener nofollow"
         aria-label="Cómo llegar"
         >
-        <img src="/social/youtube.svg" className={styles.imgnav} alt="Síguenos en Youtube"  />
+        <img src="/social/youtube.svg" className={styles.imgnav} alt="Síguenos en Youtube" />
         </a>
         
         <a href="https://www.google.com/maps?ll=19.38668,-99.223983&z=16&t=m&hl=es&gl=MX&mapclient=embed&q=Ra%C3%BAl+Z%C3%A1rate+Machuca+11+Cuevitas+%C3%81lvaro+Obreg%C3%B3n+01220+Ciudad+de+M%C3%A9xico,+CDMX"
@@ -64,7 +86,7 @@ export default function Home() {
         >
         <img src="/social/maps.svg" className={styles.imgnav} alt="Encuentranos en MAPS"  />
         </a>
-        
+      </div>
         
       
       </nav>
@@ -146,10 +168,8 @@ export default function Home() {
       <section>
         <News styles={styles} />
       </section>
-    
-      <footer className={styles.footer}>
-      <img className={styles.logo} src="/web-logo.webp"  alt="logo empresa" loading="lazy" />
-      </footer>
+        <Footer styles={styles} />
+      
     </div>
     
   )
