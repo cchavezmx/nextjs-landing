@@ -145,8 +145,8 @@
 
 .grid {
 
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 1em;
   justify-content: center;
   flex-wrap: wrap;
@@ -242,7 +242,10 @@
   
 }
 
-
+.imgencard{
+  height: 54px;
+  width: 54px;
+}
 
 
 .imgnav{

@@ -134,7 +134,7 @@ export default function Home() {
           <a href="https://itamx.com/#/dashboard" className={styles.card}>
           <div className={styles.cardHeader}>
             {/* <FontAwesomeIcon icon={faShoppingBag} className={styles.fonts}/> */}
-            <img src="/venta.svg" alt="sitio de venta de material eléctrico"/>
+            <img src="/venta.svg" alt="sitio de venta de material eléctrico" className={styles.imgencard}/>
             </div>
             
             <div>
