@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("/public/svg/banner.png");
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   color: #1F1F1F;
   overflow-y: hidden;
@@ -26,54 +27,6 @@
   
 }
 
-.footer {
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  background-color: #28323C;
-  color: white;
-  background-blend-mode: multiply;
-  height: max-content;
-  width: 100%;
-  margin-top: 30px;
-  padding: 2em;
-  
-  
-}
-
-.column{
-  display: flex;
-  flex-direction: column;
-}
-
-@media (min-width: 40em){
-  .foooter{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #28323C;
-  color: white;
-  background-blend-mode: multiply;
-  height: 15em;
-  width: 100%;
-  margin-top: 30px;
-  padding: 2em;
-  }
-}
-
-.footer >  div > img{
-  height: 5em;
-}
-
-.footer_direccion{
-  margin-top: 10px;
-  display: flex;
-  margin-right: 10px;
-  height: 2em;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -89,6 +42,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;  
+  font-weight: bold;
   background: -webkit-linear-gradient(200deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
   background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   -webkit-background-clip: text;  
@@ -307,4 +261,10 @@
   font-size: medium;
   font-weight: 700;
   color: #043c7c;
+}
+
+.text__center{
+
+  text-align: center;
+  
 }

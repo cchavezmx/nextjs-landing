@@ -8,11 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.4.1",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "framer-motion": "^4.0.3",
     "next": "10.0.8",
+    "postcss-import": "^14.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6"
   }
 }

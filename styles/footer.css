@@ -1,0 +1,30 @@
+
+.footer {
+  
+  background-color: #28323C;
+  color: white;
+  background-blend-mode: multiply;
+  padding: 2rem;  
+  width: 100%;
+  height: 100%; 
+}
+
+.footer_secction{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imgfooter{
+  height: 60px;
+}
+
+.footer__licencia{
+  background-color: #1C252E;
+  color: white;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  
+}
