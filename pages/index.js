@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Footer from '../components/_Footer.jsx'
+
 export default function Home() {
 
   const phone = "5215546371510"
@@ -9,6 +10,7 @@ export default function Home() {
     <div lang="es_MX" className="styles">
       
       <Head>
+      <title>Grupo Intecsa</title>
         <link rel='alternate' href='https://grupointecsa.com/' hrefLang='x-default' />
         <link rel='alternate' href='https://grupointecsa.com/es-CA' hrefLang='ca-es' />
         <link rel='alternate' href='https://grupointecsa.com/es-GA' hrefLang='gl-es' />
