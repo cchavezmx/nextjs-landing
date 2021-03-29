@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/public/svg/banner.png");
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   color: #1F1F1F;
   overflow-y: hidden;

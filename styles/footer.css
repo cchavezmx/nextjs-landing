@@ -1,30 +1,135 @@
-
 .footer {
   
   background-color: #28323C;
-  color: white;
+  color: rgba(206, 206, 206, 0.6);
   background-blend-mode: multiply;
-  padding: 2rem;  
+  padding: 1rem;  
   width: 100%;
-  height: 100%; 
+  height: 25rem;
+  overflow-y: hidden;
+  
+  display: grid;
+  grid-template-columns: 10% 30% 30%;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  
+  grid-gap: 2rem;
+  
+}
+
+.footer__h5{
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+@media (max-width: 50rem){
+  .footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.footer-licencia{
+  text-align: center;
+  font-weight: bold;
+  padding: 0.08rem;
+  background-color: #1C252E;
+  color: rgba(206, 206, 206, 0.6);
 }
 
 .footer_secction{
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
+    
 }
 
-.imgfooter{
-  height: 60px;
+.footer-imges{
+  height: 6em;
+  border-radius: 10px;
+  padding: 1em;
 }
 
-.footer__licencia{
-  background-color: #1C252E;
-  color: white;
-  display: block;
-  text-align: center;
-  font-weight: bold;
+.fa{
+  /* logo */
+  /* background-color: #0070f3; */
+  width: 100%;
+  height: 100%;
+  grid-column: span 1;
+}
+
+@media (max-width: 50rem){
+  .fa{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.fb{
+  /* contacto */
+  /* background-color: #f30049; */
+  width: 100%;
+  height: 100%;
+  grid-column: 2/3;
   
+}
+
+.fc{
+  /* horario */
+  /* background-color: #bef300; */
+  width: 100%;
+  height: 100%;
+  grid-column: 3/4;
+}
+
+.fd{
+  /* redes sociales */
+  /* background-color: #f30000; */
+  
+  width: 100%;
+  height: 100%;
+  grid-column: 3/4;
+  grid-row: 2;
+}
+
+.fd > h5{
+  font-weight: bold;
+}
+
+
+@media (max-width: 50rem){
+  .fd{
+    display: flex;
+    justify-content: center;
+    
+  }
+}
+
+.fe{
+  /* informacion del contacto */
+  /* background-color: #00f37a; */
+  width: 100%;
+  height: 100%;
+  grid-column: 2/3;
+  grid-row: 2;
+}
+
+.footer-logo{
+  height: 5rem;
+}
+
+.center__div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.center__div > img {
+  margin-left: 10px;
+  width: 30px;
 }

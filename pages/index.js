@@ -1,24 +1,19 @@
 import Head from 'next/head'
-// import styles from '../styles/Home.module.css'
-
-import { jsonLD } from '../public/jsonLD'
-// import News from '../components/_news'
 import Footer from '../components/_Footer.jsx'
-
 export default function Home() {
 
   const phone = "5215546371510"
   const whatsappMessage = `https://api.whatsapp.com/send/?phone=${phone}&text=Me gustaria tener información`
-
+  
   return (
     <div lang="es_MX" className="styles">
       
       <Head>
-        <title>Grupo Intecsa</title>
-        <script 
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD)}}
-        ></script>
+        <link rel='alternate' href='https://grupointecsa.com/' hrefLang='x-default' />
+        <link rel='alternate' href='https://grupointecsa.com/es-CA' hrefLang='ca-es' />
+        <link rel='alternate' href='https://grupointecsa.com/es-GA' hrefLang='gl-es' />
+        <link rel='alternate' href='https://grupointecsa.com/es-EU' hrefLang='eu-es' />
+        <link rel='alternate' href='https://grupointecsa.com/es-ES' hrefLang='es-es' />
         <meta name="description" content="Empresa dedicada a la venta, construcción, ingeniería, ejecución de obra eléctrica para el sector industrial, comercial y de edificios"></meta>
         <meta name="description" content="Integradores de autorizados ABB"></meta>
         <meta property="og:locale" content="es_MX" />
@@ -109,7 +104,7 @@ export default function Home() {
             <div>
               <h3 className="center">Empresa </h3>
               <p>
-                Empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricas en industrias, comercios y edificios.
+                Somos una Empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricas en industrias, comercios y edificios.
               </p>
             </div>
           </a>
