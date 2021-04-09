@@ -1,12 +1,14 @@
 
 .container {
-  padding-top: 5em;
-  min-height: 100vh;
+  /* padding-top: 5em; */
+  height: 100%;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
   color: #1F1F1F;
   overflow-y: hidden;
 }
@@ -36,11 +38,13 @@
 .title a:active {
   text-decoration: underline;
 }
-
 .title {
+
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;  
+  font-size: 4rem;
+  font-family: 'texgyreadventorregular';
+  letter-spacing: 2px;  
   font-weight: bold;
   background: -webkit-linear-gradient(200deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
   background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
@@ -88,6 +92,7 @@
 }
 
 .code {
+  text-align: center;
   margin-top: 10px;
   border-radius: 5px;
   padding: 0.75rem;
@@ -105,6 +110,7 @@
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .card {
@@ -119,7 +125,8 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  /* background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%); */
   background-blend-mode: screen;
   transition: color 0.15s ease, border-color 0.15s ease;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -266,4 +273,35 @@
 
   text-align: center;
   
+}
+
+.welcom{
+  box-sizing: border-box;
+  padding: 1rem;
+  /* background: chartreuse; */
+  height: 15rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+}
+
+.welcom .logo > img{
+  margin-left: 2rem;
+  position: absolute;
+  box-sizing: border-box;
+
+}
+
+.welcom > div {
+  height: fit-content;
+  flex-basis: 10rem;
+  
+}
+
+@media (max-width: 1065px){
+  .welcom .logo > img {
+    display: none;
+  }
 }
