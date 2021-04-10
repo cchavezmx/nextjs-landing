@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Fragment } from "react"
 
 const Navigation = () => {
@@ -8,9 +9,11 @@ const Navigation = () => {
   return(
     <Fragment>
 
-        <div>
+          <div>
             {/* <h1 className={styles.logo_title}>Grupo Intecsa</h1> */}
+            <Link href="/">
             <img src="/web-logo.webp" className="logo_title" alt="Síguenos en Facebook"/>
+            </Link>
           </div>
           <div className="row">
 

@@ -1,6 +1,6 @@
 import { Fragment } from "react"
 
-const HeaderWave = () => {
+const HeaderWave = ({ title, subtitulo }) => {
 
   return(
     <Fragment>
@@ -14,11 +14,11 @@ const HeaderWave = () => {
 
               <div>
                 <h1 className="title">
-                    Grupo Intecsa
+                    {title}
                 </h1>
-                  <p className="code">CREACTIVIDAD EN ELECTRICIDAD.</p>
+                  <p className="code">{subtitulo}</p>
               </div>
-              
+
           </div>
         </div>
         

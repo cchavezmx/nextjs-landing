@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import Link from 'next/link'
 
 const SeccionesCard = () => {
 
@@ -21,7 +22,8 @@ const SeccionesCard = () => {
             </div>
         </a>
             
-        <a href="https://www.instagram.com/itamxoficial/?hl=es-la" className="card">
+        <Link href="/productos">
+          <div className="card">
             <div className="cardHeader">
             {/* <FontAwesomeIcon icon={faCameraRetro} className={fonts}/> */}
             <img src="/like.svg" alt="conoce nuestras empresas" className="imgencard"/>
@@ -32,8 +34,9 @@ const SeccionesCard = () => {
               <p>
                 Somos fabricantes de accesorios para canalizacion y soporteria, como: <br/> gabientes, charolas, curvas, entra y revisa nuestros productos.
               </p>
-            </div>
-          </a>
+            </div>           
+          </div>
+          </Link>
 
           <a href="https://itamx.com/#/dashboard" className="card">
           <div className="cardHeader">

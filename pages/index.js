@@ -34,7 +34,7 @@ export default function Home() {
       </nav>
       <main className="container">
   
-        <HeaderWave />
+        <HeaderWave title="Grupo Intecsa" subtitulo="CREATIVIDAD EN ELECTRICIDAD" />
     
     <div>
         <SeccionesCard />
