@@ -1,6 +1,7 @@
 .footer {
-  
   background-color: #28323C;
+  font-family: 'RobotoCondensedRegular';
+
   color: rgba(206, 206, 206, 0.6);
   background-blend-mode: multiply;
   padding: 1rem;  
@@ -20,7 +21,7 @@
 .footer__h5{
   color: aliceblue;
   font-size: large;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 
@@ -40,7 +41,7 @@
   justify-content: space-between;
   text-align: center;
   font-weight: normal;
-  padding: 0.08rem 1rem ;
+  padding: 0.08rem 5rem ;
   background-color: #1C252E;
   color: rgba(206, 206, 206, 0.6);
 }
@@ -101,15 +102,16 @@
 .fd{
   /* redes sociales */
   /* background-color: #f30000; */
-  
-  width: 100%;
+  text-align: center;
+  min-width: 100%;
   height: min-content;
   grid-column: 3/4;
   grid-row: 2;
 }
 
 .fd > h5{
-  font-weight: bold;
+  font-family: 'RobotoCondensedRegular';
+  
 }
 
 

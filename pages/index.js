@@ -4,6 +4,8 @@ import Navigation from '../components/_Navigation'
 import SeccionesCard from '../components/_SeccionesCard'
 import ModalEntrada from '../components/_ModalEntrada'
 
+import HeaderWave from '../components/HeaderWave'
+
 
 export default function Home() {
   
@@ -31,19 +33,8 @@ export default function Home() {
           <ModalEntrada />
       </nav>
       <main className="container">
-    
-    <div className="welcom">
-      <div className="logo">
-          <img src="/logos/git-big-wb.webp" />
-      </div>
-      <div>
-        <h1 className="title">
-            Grupo Intecsa
-        </h1>
-      <p className="code">CREACTIVIDAD EN ELECTRICIDAD.</p>
-
-      </div>
-    </div>
+  
+        <HeaderWave />
     
     <div>
         <SeccionesCard />

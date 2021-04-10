@@ -36,14 +36,21 @@
 
 @font-face {
   font-family: 'RobotoCondensedRegular';
-  src: url('/font/RobotoCondensed-Regular.ttf');
+  src: url('/fonts/Roboto-Regular.ttf');
   font-weight: normal;
-  font-size: medium;
+  font-size: large;
 }
 
 @font-face {
   font-family: 'RobotoCondesedBold';
-  src: url('/font/RobotoCondensed-Bold.ttf');
+  src: url('/fonts/Roboto-Bold.ttf');
   font-weight: bold;
-  font-size: medium;
+  font-size: large;
+}
+
+@font-face {
+  font-family: 'RobotoCondesedLigth';
+  src: url('/fonts/Roboto-Light.ttf');
+  font-weight: lighter;
+  font-size: large;
 }

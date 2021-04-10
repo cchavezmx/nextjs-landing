@@ -1,0 +1,23 @@
+.inner--header{
+  
+  text-align:center;
+  /* background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */
+  background-image: linear-gradient(to top, #7ca2eb 0%, #2f6fc2 100%);
+  color:white;
+  
+  height: 55vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5rem;
+  border-radius: 0 0 15px 15px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+

@@ -4,61 +4,54 @@ import {
 
   Modal,
   ModalOverlay,
-  ModalContent
+  ModalContent,
+  ModalCloseButton
 
 } from '@chakra-ui/react'
-
-const setCookieView = (cName, cValue, expDays ) => {
-  
-  let date = new Date()
-  date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000 ))
-  const expires = "expires=" + date.toUTCString()
-  let a = document.cookie = `${cName} = ${cValue} + "; " ${expires} "; path=/"`
-
-  console.log(a)
-
-}
-
-let getCookie = (cName) => {
-  const name = `${cName} = `
-  
-  const cDecoded = decodeURIComponent(document.cookie)
-
-  console.log(cDecoded)
-
-  const cArr = cDecoded.split('; ')
-  let res
-  cArr.forEach(val => {
-    if(val.indexOf(name) === 0 ) res = val.substring(name.length)
-  })
-
-  return res
-}
 
 const ModalEntrada = () => {
 
   const [ onPlay, setOnPlay ] = useState(false)
   const handleClose = () => setOnPlay(!onPlay)
 
-  // setamos la cookie
+  const hadledClose = () => {
+    setTimeout(() => {
+        handleClose()
+    },1000 * 25 )
+  }
+
   useEffect(() => {
-    setCookieView('VideoOk', 10 , 1 )
-  },[])
-  
-  useEffect(() => {
-    let a = getCookie('VideoOk')
-    console.log(a)
+    // revisamos la fecha 
+    let isView = localStorage.getItem("Video-visto")
+    
+    if(isView){
+
+      let secondsDiff = ( Date.now() - isView ) / 1000
+      Math.floor(secondsDiff) > 3600 && localStorage.removeItem('Video-visto')
+
+    }else if(!isView){
+      setOnPlay(true)
+      localStorage.setItem("Video-visto",  Date.now() )
+    }
+
   },[])
 
   return(
     <Modal
+      size="6xl"
+      isCentered
       blockScrollOnMount={false}  
       isOpen={onPlay}
       onClose={handleClose}
     >
       <ModalOverlay />
-      <ModalContent>
-        <h1>Seré un Modal</h1>
+      <ModalContent zIndex={800} >
+      <ModalCloseButton zIndex={900} style={{ color: "white"}} />
+        
+          <video autoPlay onPlaying={hadledClose} >
+            <source src="/video/videoModal.m4v" type="video/x-m4v" />
+          </video>
+
       </ModalContent>
 
     </Modal>
