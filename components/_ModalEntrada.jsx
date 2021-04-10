@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import {
 
@@ -11,14 +11,21 @@ import {
 
 const ModalEntrada = () => {
 
+  const refVideoTag = useRef()
+
   const [ onPlay, setOnPlay ] = useState(false)
   const handleClose = () => setOnPlay(!onPlay)
 
-  const hadledClose = () => {
-    setTimeout(() => {
-        handleClose()
-    },1000 * 25 )
+
+  const closeVideo = () => {
+    if(refVideoTag.current && refVideoTag.current.currentTime === 26.027){
+      handleClose()
+    }
   }
+
+  setInterval(closeVideo, 1000)
+
+
 
   useEffect(() => {
     // revisamos la fecha 
@@ -48,8 +55,8 @@ const ModalEntrada = () => {
       <ModalContent zIndex={800} >
       <ModalCloseButton zIndex={900} style={{ color: "white"}} />
         
-          <video autoPlay onPlaying={hadledClose} >
-            <source src="/video/videoModal.m4v" type="video/x-m4v" />
+          <video autoPlay={true} controls="true" ref={refVideoTag} >
+            <source src="/video/videoModal.m4v" type="video/x-m4v"/>
           </video>
 
       </ModalContent>
