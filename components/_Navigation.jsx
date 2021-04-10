@@ -34,7 +34,7 @@ const Navigation = () => {
             </a>
 
 
-            <a href="https://www.instagram.com/itamxoficial/?hl=es-la"
+            <a href="https://www.instagram.com/grupointecsamx/?hl=es-la"
             target="_blank"
             rel="noopener follow"
             aria-label="Sígenos en instagram"

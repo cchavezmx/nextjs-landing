@@ -23,10 +23,10 @@ const SeccionesCard = () => {
               </p>
             </div>
         </div>
-        
+
         </Link>
             
-        <a href="https://www.instagram.com/itamxoficial/?hl=es-la" className="card">
+        <a href="https://www.instagram.com/grupointecsamx/?hl=es-la" className="card">
             <div className="cardHeader">
             {/* <FontAwesomeIcon icon={faCameraRetro} className={fonts}/> */}
             <img src="/like.svg" alt="conoce nuestras empresas" className="imgencard"/>
