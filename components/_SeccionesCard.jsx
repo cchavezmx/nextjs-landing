@@ -8,7 +8,9 @@ const SeccionesCard = () => {
     <Fragment>
       <div className="grid">
 
-        <a href="/about" className="card">
+        <Link href="/about">
+
+        <div className="card">
             <div className="cardHeader">
             {/* <FontAwesomeIcon icon={faInfo} className={fonts}/> */}
             <img src="/info.svg" alt="conoce nuestras empresas" className="imgencard"/>
@@ -20,23 +22,23 @@ const SeccionesCard = () => {
                 Somos una Empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricas en industrias, comercios y edificios.
               </p>
             </div>
-        </a>
+        </div>
+        
+        </Link>
             
-        <Link href="/productos">
-          <div className="card">
+        <a href="https://www.instagram.com/itamxoficial/?hl=es-la" className="card">
             <div className="cardHeader">
             {/* <FontAwesomeIcon icon={faCameraRetro} className={fonts}/> */}
             <img src="/like.svg" alt="conoce nuestras empresas" className="imgencard"/>
             </div>
             
             <div>
-              <h3 className="center">Nuestros Productos</h3>
+              <h3 className="center">Galería</h3>
               <p>
-                Somos fabricantes de accesorios para canalizacion y soporteria, como: <br/> gabientes, charolas, curvas, entra y revisa nuestros productos.
+                Síguenos en Intagram y descubre los retos que hemos tenido a lo largo de más de 25 años de experiencia.
               </p>
-            </div>           
-          </div>
-          </Link>
+            </div>
+          </a>
 
           <a href="https://itamx.com/#/dashboard" className="card">
           <div className="cardHeader">

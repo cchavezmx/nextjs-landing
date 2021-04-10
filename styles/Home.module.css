@@ -116,7 +116,7 @@
 .card {
   margin: 1rem;
   flex-basis: 45%;
-
+  height: 246px;
   padding: 3em;
   box-sizing: border-box;
   position: relative;

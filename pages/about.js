@@ -1,19 +1,29 @@
-import Link from 'next/link'
+import { Fragment } from "react"
+import Navigation from '../components/_Navigation'
+import HeaderWave from '../components/HeaderWave'
+import Footer from '../components/_Footer'
 
-export default function about (){
 
+const About = () => {
 
   return(
-    <main className="About">
-
-    <div className="proximamente">
-      <h1>Acerca de Nosotros</h1>
-      <p>Sección en Construcción</p>
-
-      <Link href="/" replace={true} ><p className="linkbutton" >Regresar</p></Link>
-
-    </div>
-
-    </main>
+    <Fragment>
+      
+      <div className="navbar">
+        <Navigation />
+      </div>
+      <div>
+        <HeaderWave title="Nosotros" subtitulo={null} />
+      </div>
+      <div>
+          <h3>Contenido</h3>
+      </div>
+      <div>
+          <Footer />
+      </div>
+      
+    </Fragment>  
   )
 }
+
+export default About
