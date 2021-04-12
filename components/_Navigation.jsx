@@ -12,7 +12,7 @@ const Navigation = () => {
           <div>
             {/* <h1 className={styles.logo_title}>Grupo Intecsa</h1> */}
             <Link href="/">
-            <img src="/web-logo.webp" className="logo_title" alt="Síguenos en Facebook"/>
+            <img src="/web-logo.webp" className="logo_title btn--global" alt="Síguenos en Facebook"/>
             </Link>
           </div>
           <div className="row">
