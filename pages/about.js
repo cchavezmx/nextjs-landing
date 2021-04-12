@@ -2,23 +2,19 @@
 import CompanyCard from "../components/_CompanyCard.jsx";
 import Hero from "../components/_Hero.jsx";
 import Footer from "../components/_Footer.jsx";
-import Link from "next/link";
+// import Link from "next/link";
 import Navigation from "../components/_Navigation";
-import SlideEx from "../components/_SlideAviso";
+
 
 // Data JSON_files
-import data from "../assets/aboutData.json";
-// Extrae los ['trabajos mas recientes'] de data y general una lista desordenada
-const trabajosRecientes = () => {
-	const trabajosRecientes = data.About["Trabajos más recientes"];
-	const trabajosRecientes_list = trabajosRecientes.map((trabajosRecientes, i) => (
-		<li key={i}>{trabajosRecientes}</li>
-	));
-	return <ul className="about__list">{trabajosRecientes_list}</ul>;
-};
+import { About, EmpresasJson } from "../assets/aboutData.json";
+import { Fragment } from "react/cjs/react.production.min";
+
 
 export default function about() {
 	return (
+	<Fragment>
+		
 		<main className="About">
 			<nav className="navbar">
 				<Navigation />
@@ -34,7 +30,7 @@ export default function about() {
 						<div className="about__answer white-box">
 							<p className="about__paragraph">
 								<strong>GRUPO INTECSA&reg;</strong>
-								{data.About.paragraph}
+								{About.paragraph}
 							</p>
 						</div>
 					</section>
@@ -43,7 +39,7 @@ export default function about() {
 
 			<div className="about__gradient-blue flex-center">
 				<div className="about__container">
-					<CompanyCard company={data.EmpresasJson} />
+					<CompanyCard company={EmpresasJson} />
 				</div>
 			</div>
 
@@ -53,7 +49,17 @@ export default function about() {
 						<div className="about__question blue-box">
 							<h2 className="about__who">Trabajos más recientes</h2>
 						</div>
-						<div className="about__answer white-box">{trabajosRecientes()}</div>
+						<div className="about__answer white-box">
+							<ul className="about__list">
+								{About.trabajosRecientes.map((job, index) => {
+									return(
+										<>
+											<li key={index}>{job}</li>
+										</>
+									)
+								})}
+							</ul>
+						</div>
 					</section>
 				</div>
 			</div>
@@ -70,9 +76,9 @@ export default function about() {
 			</Link>
 			*/}
 
-			<SlideEx />
-
-			<Footer />
 		</main>
+		<Footer />
+	</Fragment>
+
 	);
 }

@@ -47,7 +47,7 @@ const _Hero = () => {
 								</div>
 								<div className="flip-card-back">
 									<h1>Tableros de distribución eléctrica</h1>
-									<p>Dieño, emsamble, instalación</p>
+									<p>Diseño, ensamble, instalación, y puesta en marcha.</p>
 									<p>y puesta en marcha.</p>
 								</div>
 							</div>
@@ -128,7 +128,7 @@ const _Hero = () => {
 									/>
 								</div>
 								<div className="flip-card-back">
-									<h1>mercadolibre.com</h1>
+									<h1>Catalogo Virtual</h1>
 									<p>Adquiere nuestros productos</p>
 									<p>en linea </p>
 								</div>

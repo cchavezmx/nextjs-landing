@@ -1,71 +1,74 @@
 
-import React from 'react';
+import React, { Fragment } from 'react';
 
-const _CompanyCard = (props) => {
+// TODO hay que hacerlo dinamico
+// TODO para la vista responsiva, agregar un boton de mostrar mas o mostrar menos
+
+const _CompanyCard = ({ company }) => {
 	return (
-		<>
+		<Fragment>
 			<div className="company__grid">
-				<a href="/about" className="card">
+				<div className="card">
 					<div className="cardHeader">
 						<img
-							src={props.company[0].logo}
-							alt={props.company[0].slug}
+							src={company[0].logo}
+							alt={company[0].slug}
 							className="imgencard"
 						/>
 					</div>
 
 					<div>
-						<h3 className="center">{props.company[0].title}</h3>
-						<p>{props.company[0].text}</p>
+						<h3 className="center">{company[0].title}</h3>
+						<p>{company[0].text}</p>
 					</div>
-				</a>
+				</div>
 
-				<a href="/about" className="card">
+				<div className="card">
 					<div className="cardHeader">
 						<img
-							src={props.company[1].logo}
-							alt={props.company[1].slug}
+							src={company[1].logo}
+							alt={company[1].slug}
 							className="imgencard"
 						/>
 					</div>
 
 					<div>
-						<h3 className="center">{props.company[1].title}</h3>
-						<p>{props.company[1].text}</p>
+						<h3 className="center">{company[1].title}</h3>
+						<p>{company[1].text}</p>
 					</div>
-				</a>
+				</div>
 
-				<a href="/about" className="card">
+				<div className="card">
 					<div className="cardHeader">
 						<img
-							src={props.company[2].logo}
-							alt={props.company[2].slug}
+							src={company[2].logo}
+							alt={company[2].slug}
 							className="imgencard"
 						/>
 					</div>
 
 					<div>
-						<h3 className="center">{props.company[2].title}</h3>
-						<p>{props.company[2].text}</p>
+						<h3 className="center">{company[2].title}</h3>
+						<p>{company[2].text}</p>
 					</div>
-				</a>
+				</div>
 
-				<a href="/about" className="card">
+				<div className="card">
 					<div className="cardHeader">
 						<img
-							src={props.company[3].logo}
-							alt={props.company[3].slug}
+							src={company[3].logo}
+							alt={company[3].slug}
 							className="imgencard"
 						/>
 					</div>
 
 					<div>
-						<h3 className="center">{props.company[3].title}</h3>
-						<p>{props.company[3].text}</p>
+						<h3 className="center">{company[3].title}</h3>
+						<p>{company[3].text}</p>
 					</div>
-				</a>
+				</div>
 			</div>
-		</>
+		</Fragment>
 	);
 };
 

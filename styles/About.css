@@ -13,15 +13,30 @@
 	--shadow-ligth: #777777b3;
 	--shadow-dark: #000000b3;
 }
-
+/* 
 * {
 	margin: 0;
 	padding: 0;
 	outline: none;
 	list-style: none;
+} */
+
+.about__button{
+	background-color: tomato;
+	color: white;
+	padding: 0 1rem;
 }
 
+.about__button:hover,
+.about__button::selection,
+.about__button:focus{
+	border: none;
+}
+
+
 .About {
+
+	overflow-y: hidden;
 	width: 100%;
 	display: flex;
 	flex-flow: column nowrap;
@@ -93,7 +108,7 @@
 	height: auto;
 	margin: 2em;
 	font-family: 'RobotoCondensedRegular';
-	font-size: 1.5em;
+	font-size: large;
 }
 
 .about__list li {
@@ -105,9 +120,9 @@
 	height: auto;
 	margin: 2em;
 	text-indent: 5em;
-	text-align: justify;
+	text-align: left;
 	font-family: 'RobotoCondensedRegular';
-	font-size: 1.5em;
+	font-size: large;
 }
 
 .about__question {
@@ -129,10 +144,15 @@
 .about__who {
 	font-family: texgyreadventorregular;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 2em;
 	letter-spacing: 2px;
 	text-align: center;
 	text-shadow: var(--shadow) 0 2px 2px;
+
+}
+
+.about__question > h2{
+	width:  200px;
 }
 
 .flex-center {
@@ -143,8 +163,10 @@
 }
 
 .blue-box {
+	box-sizing: border-box;
 	background-color: var(--color-middle);
 	color: var(--text-white);
+	padding: 1rem;
 }
 
 .white-box {
@@ -192,6 +214,11 @@
 		margin: 1em;
 		text-indent: 2em;
 	}
+
+	.about__question{
+		font-size: small;
+	}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

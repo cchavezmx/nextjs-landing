@@ -1,6 +1,6 @@
 
 import { Fragment } from 'react'
-import { AspectRatio } from '@chakra-ui/react'
+import SlideEx from "../components/_SlideAviso";
 
 const Footer = () => {
 
@@ -74,7 +74,7 @@ const Footer = () => {
 
     <div className="footer-licencia">
       <p>Grurpo Intecsa 2021</p>
-      <small>Revisa nuestro aviso de privacidad</small>
+      <SlideEx />
     </div>
     </Fragment>
   )
