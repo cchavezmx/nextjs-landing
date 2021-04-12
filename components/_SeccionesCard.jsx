@@ -10,7 +10,7 @@ const SeccionesCard = () => {
 
         <Link href="/about">
 
-        <div className="card">
+        <div className="card btn--global">
             <div className="cardHeader">
             {/* <FontAwesomeIcon icon={faInfo} className={fonts}/> */}
             <img src="/info.svg" alt="conoce nuestras empresas" className="imgencard"/>
@@ -56,7 +56,7 @@ const SeccionesCard = () => {
 
           <a
             href="https://forms.monday.com/forms/embed/608067760034e1ac1f86e10392668e8b?r=use1"
-            className="card"
+            className="card btn--global"
           >
             <div className="cardHeader">
             {/* <FontAwesomeIcon icon={faPhone} className={fonts}/> */}
