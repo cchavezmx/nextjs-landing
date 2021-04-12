@@ -2,13 +2,12 @@
 import CompanyCard from "../components/_CompanyCard.jsx";
 import Hero from "../components/_Hero.jsx";
 import Footer from "../components/_Footer.jsx";
+import { Fragment } from "react";
 // import Link from "next/link";
 import Navigation from "../components/_Navigation";
 
-
 // Data JSON_files
 import { About, EmpresasJson } from "../assets/aboutData.json";
-import { Fragment } from "react/cjs/react.production.min";
 
 
 export default function about() {

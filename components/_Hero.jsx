@@ -47,7 +47,7 @@ const _Hero = () => {
 								</div>
 								<div className="flip-card-back">
 									<h1>Tableros de distribución eléctrica</h1>
-									<p>Diseño, ensamble, instalación, y puesta en marcha.</p>
+									<p>Diseño, ensamble, instalación,</p>
 									<p>y puesta en marcha.</p>
 								</div>
 							</div>
@@ -88,7 +88,7 @@ const _Hero = () => {
 								</div>
 								<div className="flip-card-back">
 									<h1>Tableros ABB Epower</h1>
-									<p>Venta de equpo y servicio</p>
+									<p>Venta de equipo y servicio</p>
 									<p>Ingeniería eléctrica</p>
 								</div>
 							</div>
@@ -128,9 +128,9 @@ const _Hero = () => {
 									/>
 								</div>
 								<div className="flip-card-back">
-									<h1>Catalogo Virtual</h1>
+									<h1>Catálogo Virtual</h1>
 									<p>Adquiere nuestros productos</p>
-									<p>en linea </p>
+									<p>en línea </p>
 								</div>
 							</div>
 						</div>

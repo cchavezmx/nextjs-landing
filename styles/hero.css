@@ -185,7 +185,7 @@
 		flex-flow: column wrap;
 		font-family: texgyreadventorregular;
 		/* font-size: 8em; */
-		font-size: 6em;
+		font-size: 5.5em;
 		line-height: 1em;
 		margin-left: 25px;
 		/* text-shadow: var(--shadow-dark) -13px -8px 10px; */
@@ -211,7 +211,7 @@
 	.hero__grid {
 		display: grid;
 		gap: 0.36em;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 
 	}
 
@@ -221,23 +221,23 @@
 	}
 
 	.hero__grid-item {
-		height: 130px;
-		width: 130px;
+		height: 110px;
+		width: 110px;
 		display: flex;		
 
 	}
 
 	.flip-card-front,
 	.flip-card-back {
-		height: 130px;
-		width: 130px;		
+		height: 110px;
+		width: 110px;		
 	}
 
 	.flip-card-inner{
 		display: flex;
 		align-items: center;
-		height: 130px;
-		width: 130px;
+		height: 110px;
+		width: 110px;
 		font-size: smaller;
 
 	}
