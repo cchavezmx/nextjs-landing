@@ -9,7 +9,7 @@ export default function SlideEx() {
 	return (
 		<>
 			<Button color="#fff" bg="tomato" onClick={onToggle}>
-				Aviso de confidencialidad
+				Aviso de privacidad
 			</Button>
 			<Slide
 				direction="top"

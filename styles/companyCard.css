@@ -5,16 +5,16 @@
 	gap: 1rem;
 }
 
+.card {
+	height: auto !important;
+}
+
 /**_____ _____ _____  mediaQuerys _____ _____ _____ */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.company__grid {
 		grid-template-columns: 1fr;
-	}
-
-	.card {
-		height: auto !important;
 	}
 }
 
