@@ -4,10 +4,10 @@
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1rem;
 }
-
+/* 
 .card {
 	height: auto !important;
-}
+} */
 
 /**_____ _____ _____  mediaQuerys _____ _____ _____ */
 

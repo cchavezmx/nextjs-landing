@@ -12,6 +12,7 @@ const Navigation = () => {
           <div>
             {/* <h1 className={styles.logo_title}>Grupo Intecsa</h1> */}
             <Link href="/">
+            {/* <div className="logo_title"/> */}
             <img src="/web-logo.webp" className="logo_title btn--global" alt="Síguenos en Facebook"/>
             </Link>
           </div>

@@ -18,7 +18,7 @@ const SeccionesCard = () => {
             
             <div>
               <h3 className="center">Empresa </h3>
-              <p>
+              <p className="content--wrap">
                 Somos una Empresa dedicada a la fabricación, comercialización y montaje de instalaciones eléctricas en industrias, comercios y edificios.
               </p>
             </div>
