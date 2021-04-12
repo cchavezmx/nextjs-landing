@@ -1,0 +1,223 @@
+{
+	"Header": {
+		"title": "GRUPO INTECSA",
+		"paragraph": "transformamos la energía en luz y la luz en energía... también."
+	},
+	"About": {
+		"paragraph": " orgullosamente Mexicano con más de 24 años de trayectoria, es un grupo de empresas dedicado a la instalación, planeación, construcción y mantenimiento de centros comerciales y tiendas departamentales especializada en proyectos electromecánicos.  Gracias a nuestra dedicación y empeño hemos traspasado fronteras, logrando consolidar proyectos en varios países de América latina como: Guatemala, Honduras, El Salvador y República Dominicana, logrando el reconocimiento de nuestros clientes y socios comerciales.",
+		"Cert": [
+			"BANER CON IMAGENES DE CERTIFICACIONES, TIPO SCREENSHOT DE PDF's"
+		],
+		"Premios": [
+			"Premio Empresa Mexica del Año 2012, por Latin Amarican Quality Institute",
+			"México Quality Certification en el año 2012 por Latin Amarican Quality Institute.",
+			"Reconocimiento otorgado por la Asociación Internacional de Mercadotecnia, S. C.",
+			"'Estrella de Oro' Al Mérito Empresarial, en mayo del 2005",
+			"Reconocimiento  otorgado por la Asociación Internacional de Mercadotecnia S. C.",
+			"'Medalla de Oro' a la Calidad y Servicio, en junio del 2005.",
+			"Reconocimiento otorgado por el Trade Leaders Club New Millennium Award.",
+			"Trofeo otorgado por la Editorial Office “XXXII Trofeo Internacional al Prestigio Comercial”, en noviembre del 2002.",
+			"Trofeo internacional al prestigio comercial, reconocimiento otorgado por el Trade Leaders’ Club, New Millennium Award"
+		],
+		"Trabajos más recientes": [
+			"2019 - Centro comercial Santa Anita, construcción de instalaciones eléctricas. - Guadalajara Jalisco, México. (en curso)",
+			"2019 - Liberpool Santa Anita, construcción de instalaciones eléctricas - Guadalajara Jalisco, México.",
+			"2018 - Centro comercial Perisur, remodelación de fachadas y trabajos de media tensión - Ciudad de México, CDMX.",
+			"2018 - Liberpool Perisur, remodelacion de tienda completa - Ciudad de México, CDMX.",
+			"2017 - Fábricas de Francia, construcción de instalaciones eléctricas - Oaxaca de Júarez Oaxaca, México.",
+			"2017 - Fábricas de Francia, construcción de instalaciones eléctricas, cableado estructurado de voz y datos - Saltillo Coahuila, México."
+		]
+	},
+	"Carrousel": {
+		"Obra": [
+			{
+				"img": "img/carrousel/obra/obra.jpeg",
+				"title": "Fachada Liverpool Santa Anita"
+			},
+			{
+				"img": "img/carrousel/obra/obra_02.jpeg",
+				"title": "Liverpool Santa Anita"
+			},
+			{
+				"img": "img/carrousel/obra/obra_02.png",
+				"title": "Liverpool Santa Anita"
+			},
+			{
+				"img": "img/carrousel/obra/obra_03.png",
+				"title": "Liverpool Santa Anita"
+			},
+			{
+				"img": "img/carrousel/obra/obra_04.png",
+				"title": "Liverpool Santa Anita"
+			},
+			{
+				"img": "img/carrousel/obra/obra_05.png",
+				"title": "Liverpool Santa Anita"
+			}
+		],
+		"Tableros": [
+			{
+				"img": "img/carrousel/tableros/tab.jpeg",
+				"title": "Cuarto eléctrico"
+			},
+			{
+				"img": "img/carrousel/tableros/tab_02.jpeg",
+				"title": "Detalle de conexión"
+			},
+			{
+				"img": "img/carrousel/tableros/tab_03.jpeg",
+				"title": "Tablero eléctrico"
+			},
+			{
+				"img": "img/carrousel/tableros/tab_04.jpeg",
+				"title": "Seccionador eléctrico"
+			},
+			{
+				"img": "img/carrousel/tableros/tab_05.jpeg",
+				"title": "Subestación"
+			}
+		],
+		"Productos": [
+			{
+				"img": "https://cdn.productimages.abb.com/9IBA255267_720x540.png",
+				"title": "Interruptor Caja Moldeada"
+			},
+			{
+				"img": "https://cdn.productimages.abb.com/9IBA248846_720x540.png",
+				"title": "Interruptor Tmax"
+			},
+			{
+				"img": "https://cdn.productimages.abb.com/9PAA00000033179_720x540.png",
+				"title": "Gabiente Mistral GEMINI"
+			}
+		],
+		"Trasportes": [
+			{
+				"img": "img/carrousel/trans/grua_02.jpeg",
+				"title": "Renta de gruas de elevación"
+			},
+			{
+				"img": "img/carrousel/trans/grua_03.jpeg",
+				"title": "Renta de gruas de elevación"
+			}
+		],
+		"Canalizacion": [
+			{
+				"img": "img/carrousel/canal/cana_01.jpeg",
+				"title": "Canalización y Soporteria"
+			},
+			{
+				"img": "img/carrousel/canal/cana_02.jpeg",
+				"title": "Canalización y Soporteria"
+			}
+		]
+	},
+	"Footer": {
+		"address": "Raúl Zárate Machuca 11, col. Cuevitas, alc. Álbaro Obregón, C.P. 01220, Ciudad de México, CDMX",
+		"link": "https://www.google.com.mx/maps/place/Grupo+Intecsa+ITA/@19.3868054,-99.2240172,20.5z/data=!4m13!1m7!3m6!1s0x85d201adef381fe5:0x6aa534163fcf98df!2sRa%C3%BAl+Z%C3%A1rate+Machuca,+Cuevitas,+01220+Ciudad+de+M%C3%A9xico,+CDMX!3b1!8m2!3d19.3867421!4d-99.2241329!3m4!1s0x85d201ade89debff:0x98036d19714d1b13!8m2!3d19.3868471!4d-99.22398",
+		"phone": "+52 55 5570 1197",
+		"phone2": "+52 55 5259 2485",
+		"email": "contacto@grupintecsa.com",
+		"email2": "servicio@grupintecsa.com",
+		"facebook": "https://www.facebook.com/itamxoficial",
+		"youtube": "https://www.youtube.com/user/idamultimedia",
+		"maps": "https://www.google.com.mx/maps/place/Grupo+Intecsa+ITA/@19.3868054,-99.2240172,20.5z/data=!4m13!1m7!3m6!1s0x85d201adef381fe5:0x6aa534163fcf98df!2sRa%C3%BAl+Z%C3%A1rate+Machuca,+Cuevitas,+01220+Ciudad+de+M%C3%A9xico,+CDMX!3b1!8m2!3d19.3867421!4d-99.2241329!3m4!1s0x85d201ade89debff:0x98036d19714d1b13!8m2!3d19.3868471!4d-99.22398"
+	},
+	"EmpresasJson": [
+		{
+			"slug": "ITA",
+			"logo": "/logo-ita.webp",
+			"title": "Instalaciones Técnologicas Aplicadas",
+			"text": "Es una empresa Mexicana con más de 14 años de experiencia que ofrece soluciones en electricidad, desde el diseño de proyectos, levantamientos, asesorías técnicas, mediciones para estudios de calidad en la energía, integración de equipos eléctricos en baja y media tensión; distribuidores de productos ABB, ONKA, FINDER, especialistas en CODIGO DE RED, proyectos de automatización y domótica.",
+			"card": [
+				{
+					"img": "img/servicios/main/servicio.png",
+					"title": "Servicios",
+					"content": "Somos especialistas en proyectos 'llave en mano', desarrollando ingeniería eléctrica y de detalle para usted, brindandole asesoria técnica y guiandolo durante el proceso hasta la puesta en marcha."
+				},
+				{
+					"img": "img/servicios/main/productos.png",
+					"title": "Productos",
+					"content": "Contamos con un catálogo de más de 3000 productos del ramo eléctrico que ponemos en línea completamente a su disposición, somos distribuidores directos de fabrica de productos marca ABB, ONKA y Finder."
+				},
+				{
+					"img": "img/servicios/main/cert.png",
+					"title": "Certificación",
+					"content": "Primera empresa Mexicana con certificaciones internacionales por parte de nuestro socio comercial ABB, para producción, ensamble y distribución de sus líneas en baja y media tensión."
+				}
+			]
+		},
+		{
+			"slug": "CSM",
+			"logo": "/logo-csm.webp",
+			"title": "Canalización y Soportería Mexicana",
+			"text": "Especializada en manufactura de productos metalmecánicos principalmente en aluminio, lámina galvanizada, lamina negra y latón, contamos con la tecnología de corte laser, corte wáter jet, punzonadora, dobladora de lámina y maquinado CNC.  Ofrecemos asesoría en el diseño de piezas especiales.",
+
+			"card": [
+				{
+					"slug": "eguelSer01",
+					"img": "img/servicios/main/servicio.png",
+					"title": "Servicios",
+					"content": "Podemos brindarle diversos servicios entre los que se encuentran: diseño de piezas especiales, maquinado CNC, corte laser, corte wáter jet, doblado de láminas de hasta 2300mm de largo."
+				},
+				{
+					"img": "img/servicios/main/productos.png",
+					"title": "Productos",
+					"content": "Gabinetes eléctricos, acometidas a ducto, brakets, caja pos, chicote flexible, coples para ducto, derivación T, registros, tapas, zapatas, pararrayos, entre otros... revise nuestra tienda en linea para conocer el catálogo."
+				},
+				{
+					"img": "img/servicios/main/cert.png",
+					"title": "Certificaciones",
+					"content": "BANNER CON IMAGENES DE CERTIFICACIONES, IMAGENES DE ARCHIVOS PDF's"
+				}
+			]
+		},
+		{
+			"slug": "Eguel",
+			"logo": "/logo-eguel.webp",
+			"title": "Inmobiliara Eguel",
+			"text": "Empresa radicada en Ciudad de México con 21 años de trayectoria, pone a sus órdenes los servicios de renta de andamios para construcción, torres de iluminación provisional, tableros eléctricos provisionales, grúa de gama alta tipo Hiab, atendemos necesidades de movilidad mediante la prestación de servicios de fletes y maniobra.",
+			"card": [
+				{
+					"img": "img/servicios/main/servicio.png",
+					"title": "Servicios",
+					"content": "Renta de andamios para construcción, torres de iluminación provisional, tableros eléctricos provisionales, servicios de transporte, grúa tipo Hiab y maniobra de cargas pesadas."
+				},
+				{
+					"img": "img/servicios/main/productos.png",
+					"title": "NO CUENTA CON PRODUCTOS",
+					"content": "NO CUENTA CON PRODUCTOS"
+				},
+				{
+					"img": "img/servicios/main/cert.png",
+					"title": "NO CUENTA CON CERTIFICACIONES",
+					"content": "NO CUENTA CON CERTIFICACIONES"
+				}
+			]
+		},
+		{
+			"slug": "ITe",
+			"logo": "/logo-ite.webp",
+			"img": "../assets/logo/icoGIT.svg",
+			"title": "Instalaciones y Técnica",
+			"text": " Instalaciones y Técnica S. A. DE C. V.&reg; es una empresa dedicada a la planeación, construcción, instalación y mantenimiento de centros comerciales, tiendas departamentales, naves industriales y edificios inteligentes, contamos con el equipo humano y tecnológico capaz de ofrecer a nuestros clientes atención directa, trato amable, respuesta inmediata y conocimiento integral en cada una de las etapas que constituye su proyecto, denos una idea… nosotros la hacemos realidad.",
+			"card": [
+				{
+					"img": "img/servicios/main/servicio.png",
+					"title": "Servicios",
+					"content": "Le ofrecemos oluciones integrales enfocadas a eficientar los diferentes proyectos de edificación buscando incrementar el retorno a nuestros inversionistas, desarrolladores, constructores y usuarios finales."
+				},
+				{
+					"img": "img/servicios/main/productos.png",
+					"title": "NO CUENTA CON PRODUCTOS",
+					"content": "NO CUENTA CON PRODUCTOS"
+				},
+				{
+					"img": "img/servicios/main/cert.png",
+					"title": "NO CUENTA CON CERTIFICACIONES",
+					"content": "NO CUENTA CON CERTIFICACIONES"
+				}
+			]
+		}
+	]
+}
