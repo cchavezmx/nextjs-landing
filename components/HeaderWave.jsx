@@ -6,6 +6,18 @@ const HeaderWave = ({ title, subtitulo }) => {
     <Fragment>
 
         <div className="inner--header flex">
+        <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
           <div className="welcom">
 
               <div className="logo">
