@@ -1,3 +1,4 @@
+import { useState } from 'react'
 // Custom components
 import CompanyCard from "../components/_CompanyCard.jsx";
 import Hero from "../components/_Hero.jsx";
@@ -9,8 +10,40 @@ import Navigation from "../components/_Navigation";
 // Data JSON_files
 import { About, EmpresasJson } from "../assets/aboutData.json";
 
+// npm Component
+// import PDFViewer from 'pdf-viewer-reactjs'
 
-export default function about() {
+// chakra
+import {
+	Modal, 
+	ModalOverlay, 
+	ModalCloseButton,
+	ModalContent
+}from '@chakra-ui/react'
+
+
+const ModalPDF = ({ isOpen, toggleOpen }) => {
+
+	return(
+		<Modal isOpen={isOpen} onClose={toggleOpen} size="full">
+			<ModalCloseButton />
+			<ModalContent>
+				<ModalOverlay />
+					{/* <PDFViewer 
+					document={{
+						url: 'pdf/CV2.pdf'
+					}}
+					/> */}
+			</ModalContent>
+		</Modal>
+	)
+}
+
+const about = () => {
+
+	const [isOpen, setIsOpen ] = useState(false)
+	const toggleOpen = () => setIsOpen(!isOpen)
+
 	return (
 	<Fragment>
 		
@@ -47,6 +80,7 @@ export default function about() {
 					<section className="about__section shadow-box">
 						<div className="about__question blue-box">
 							<h2 className="about__who">Trabajos más recientes</h2>
+							<a href="pdf/CV2.pdf" target="_blank" className="btn--blur"><p>Descargar Currículum</p></a>
 						</div>
 						<div className="about__answer white-box">
 							<ul className="about__list">
@@ -74,6 +108,8 @@ export default function about() {
 				<p className="linkbutton">Regresar</p>
 			</Link>
 			*/}
+		{/* <button onClick={toggleOpen}>Ver Curriculum</button>
+			<ModalPDF isOpen={isOpen} toggleOpen={toggleOpen} />  */}
 
 		</main>
 		<Footer />
@@ -81,3 +117,6 @@ export default function about() {
 
 	);
 }
+
+
+export default about
