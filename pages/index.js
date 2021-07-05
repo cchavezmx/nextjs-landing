@@ -30,7 +30,7 @@ export default function Home() {
 
       <nav className="navbar">
           <Navigation />
-          <ModalEntrada />
+          {/* <ModalEntrada /> */}
       </nav>
       <main className="container">
   
