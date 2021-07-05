@@ -11,7 +11,7 @@ import Navigation from "../components/_Navigation";
 import { About, EmpresasJson } from "../assets/aboutData.json";
 
 // npm Component
-// import PDFViewer from 'pdf-viewer-reactjs'
+
 
 // chakra
 import {

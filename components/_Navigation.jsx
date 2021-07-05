@@ -51,7 +51,7 @@ const Navigation = () => {
             <img src="/social/linkedin.svg" className="hidden" alt="Síguenos en Linkedin"  />
             </a>
 
-            <a href="https://www.youtube.com/channel/UCyjWF1Qa_ehQVYOHX_RF84w/null"
+            <a href="https://www.youtube.com/channel/UCLglnunszAKCtMYLaNDBpUw/featured"
             target="_blank"
             rel="noopener follow"
             aria-label="Cómo llegar"

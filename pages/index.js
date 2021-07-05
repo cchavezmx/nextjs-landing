@@ -39,8 +39,6 @@ export default function Home() {
     <div>
         <SeccionesCard />
     </div>
-
-        
       </main>
       <section>
         {/* <News { /> */}
