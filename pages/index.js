@@ -19,7 +19,7 @@ export default function Home() {
         <link rel='alternate' href='https://grupointecsa.com/es-EU' hrefLang='eu-es' />
         <link rel='alternate' href='https://grupointecsa.com/es-ES' hrefLang='es-es' />
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/itacatalgo.appspot.com/o/gptitle.png?alt=media&token=49e2b517-03e0-4daa-9ed1-34311ac326df"/>
-        <meta property="og:title" content=""/>
+        <meta property="og:title" content="Grupo Intecsa"/>
         <meta property="og:description" content="Grupo Intecsa empresas dedicado a la instalación, planeación, construcción y mantenimiento de centros comerciales y tiendas departamentales especializada en proyectos electromecánicos"/>
         <meta property="og:image:width" content="1200"/>  
         <meta property="og:image:height" content="630"/>
