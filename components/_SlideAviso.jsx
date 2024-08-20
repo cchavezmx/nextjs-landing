@@ -65,7 +65,7 @@ const SlideEx = () => {
 
 	return (
 		<Fragment>
-      <a href="/politicas" className="about__button">Politicas de genero</a>
+      <a href="/politicas" className="about__button">Política de no discriminación</a>
 			<button onClick={handledOnelAviso} className="about__button" >Aviso de confidencialidad</button>
 			<ModalAviso handledOpen={handledOnelAviso} isView={isOpen} />
 		</Fragment>
