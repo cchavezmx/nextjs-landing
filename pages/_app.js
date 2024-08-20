@@ -1,4 +1,6 @@
 import '../styles/globals.css'
+import "../styles/politicas.css"
+
 import { ChakraProvider } from '@chakra-ui/react'
 import { LocalBusinessJsonLd, CorporateContactJsonLd } from 'next-seo'
 import LOCAL from '../seo/local'

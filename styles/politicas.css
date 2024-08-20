@@ -1,0 +1,67 @@
+/* styles.css */
+.policy-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.policy-title {
+    font-size: 26px;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.policy-subtitle {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.policy-paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.policy-list {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.policy-list-item {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.4;
+    decoration: none;
+}
+
+.policy-list-item::before {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.policy-highlight {
+    color: #0056b3;
+}
+
+.policy-section {
+    margin-bottom: 40px;
+}
+
+.policy-section:last-child {
+    margin-bottom: 0;
+}
+
