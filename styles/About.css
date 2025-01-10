@@ -87,10 +87,9 @@
 
 .about__answer {
 	width: 100%;
-	height: auto;
+	height: 300px;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
+  overflow-x: auto;
 }
 
 .about__container {
