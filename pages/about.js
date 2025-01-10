@@ -75,7 +75,7 @@ const about = () => {
             <section className="about__section shadow-box">
               <div className="about__question blue-box">
                 <h2 className="about__who">Trabajos más recientes</h2>
-                <a href="pdf/CV_INTECSA.pdf" target="_blank" className="btn--blur">
+                <a href="pdf/CV_INTECSA_DIC_2024.pdf" target="_blank" className="btn--blur">
                   <p>Descargar Currículum</p>
                 </a>
               </div>
